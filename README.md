@@ -5,7 +5,7 @@
 ## Make sure Arduino with Tentacle Shield is connected to COM6.
 ## Atlas Scientific probes required: ORP, EC, Industrial pH
 ## Atlas Scientific EZO circuits (**Serial UART Mode):
-	### Channel 0: RTD
-	### Channel 1: pH
-	### Channel 2: ORP
-	### Channel 3: EC
+Channel 0: RTD
+Channel 1: pH
+Channel 2: ORP
+Channel 3: EC
