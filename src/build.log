@@ -1,0 +1,182 @@
+Compiler version: 4.7 (R2007b) 
+mcc -o 'T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software' -W 'WinMain:T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software' -d 'C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src' -T 'link:exe' -v 'C:\Users\Watertech\Documents\MATLAB\factorySensorsGUI.m' -a 'C:\Users\Watertech\Documents\MATLAB\gatherData.m' -a 'C:\Users\Watertech\Documents\MATLAB\gatherData.asv'  
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\matlab\mcc.enc 
+Processing C:\Users\Watertech\Documents\MATLAB\factorySensorsGUI.fig 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\matlab\guide\guideopts.fig 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\matlab\winfun\actxcontrolselect.fig 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\matlab\winfun\actxcontrolcreateproperty.fig 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\instrument\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\shared\controllib\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\ident\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\signal\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2007b\toolbox\shared\optimlib\mcc.enc 
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+8 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 50 path items. 
+Begin validation of MEX files: Fri Jun 16 11:06:29 2017 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\clc.mexw32'. 
+Found M-file 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\clc.m'. 
+MEX file 
+    'C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\clc.mexw32' 
+ is valid. It contains 'mexFunction.' 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\deploywhich.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\readline.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\bdschur.mexw32'. 
+Found M-file 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\bdschur.m'. 
+MEX file 
+    'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\bdschur.mexw32' 
+ is valid. It contains 'mexFunction.' 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\ddaeresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\ddaesim.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\frdelay.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\frkernel.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\hlyapslv.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\lyapslv.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\matscale.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\mimozero.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\quadgp1.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\quadgp2.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\ssfresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\ssresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\sssim.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\sylvslv.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\tfresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\tfsim.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\zpkboderesp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\zpkfresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\zpkresp.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\control\ctrlutil\zpksim.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\instrument\instrument\private\privateGetGpib32DllVendor.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\instrument\instrument\private\privateLoadIviClass.mexw32'. 
+No conflicting M-file found. 
+Validating 'C:\Program Files (x86)\MATLAB\R2007b\toolbox\signal\signal\private\upfirdnmex.mexw32'. 
+No conflicting M-file found. 
+End validation of MEX files: Fri Jun 16 11:06:29 2017 
+Deleting 42 temporary MEX authorization files. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_23814_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_16082_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_14113_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_1612_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_31986_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_1853_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_3483_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_31478_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_8437_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_22133_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_10860_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_20565_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_15265_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_23386_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_11592_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_25183_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_18404_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_14508_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_13117_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_2558_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_27346_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_12227_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_9876_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_15715_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_25252_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_25473_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_17912_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_2718_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_26369_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_18310_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_9946_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_8299_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_24189_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_4002_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_14099_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_22863_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_3424_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_13200_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_459_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_31972_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_8616_7856.auth'. 
+Removing: 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_23265_7856.auth'. 
+Parsing file "C:\Users\Watertech\Documents\MATLAB\factorySensorsGUI.m" 
+	(Referenced from: "Compiler Command Line"). 
+Parsing file "C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line"). 
+Parsing file "C:\Program Files (x86)\MATLAB\R2007b\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line"). 
+Generating file "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_main.c". 
+Generating file "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\readme.txt". 
+Generating file "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_mcc_component_data.c". 
+Contents of temporary response file 'C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_4271': 
+ ...................... 
+' -O -v -output "T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software" -I"C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src" "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_main.c" "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_mcc_component_data.c" -link exe -outdir "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src"' 
+...................... 
+Executing command: mbuild "@C:\Users\WATERT~1\AppData\Local\Temp\mathworks_tmp_4271" 
+ This is mbuild Copyright 1984-2006 The MathWorks, Inc. 
+ 
+-> Default options filename found in C:\Users\Watertech\AppData\Roaming\MathWorks\MATLAB\R2007b 
+---------------------------------------------------------------- 
+->    Options file           = C:\Users\Watertech\AppData\Roaming\MathWorks\MATLAB\R2007b\compopts.bat 
+->    COMPILER               = lcc 
+->    Compiler flags: 
+         COMPFLAGS           = -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2007b\sys\lcc\include" -noregistrylookup 
+         OPTIMFLAGS          = -DNDEBUG 
+         DEBUGFLAGS          = -g4 
+         arguments           =  -IC:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src 
+         Name switch         = -Fo 
+->    Pre-linking commands   =  
+->    LINKER                 = lcclnk 
+->    Link directives: 
+         LINKFLAGS           = -tmpdir "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\." -L"C:\PROGRA~2\MATLAB\R2007b\sys\lcc\lib" -libpath "C:\PROGRA~2\MATLAB\R2007b\extern\lib\win32\lcc" 
+         LINKFLAGSPOST       = mclmcrrt.lib 
+         Name directive      = -o "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software.exe" 
+         File link directive =  
+         Lib. link directive =  
+         Rsp file indicator  = @ 
+->    Resource Compiler      =  
+->    Resource Linker        =  
+---------------------------------------------------------------- 
+ 
+ 
+--> "lcc  -IC:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2007b\sys\lcc\include" -noregistrylookup -FoC:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_main.obj -IC:\PROGRA~2\MATLAB\R2007b\extern\include -IC:\PROGRA~2\MATLAB\R2007b\simulink\include -DNDEBUG C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_main.c" 
+ 
+ 
+--> "lcc  -IC:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2007b\sys\lcc\include" -noregistrylookup -FoC:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_mcc_component_data.obj -IC:\PROGRA~2\MATLAB\R2007b\extern\include -IC:\PROGRA~2\MATLAB\R2007b\simulink\include -DNDEBUG C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_mcc_component_data.c" 
+ 
+    Contents of C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\mbuild_tmp.rsp: 
+  C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_main.obj  C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software_mcc_component_data.obj 
+ 
+ 
+--> "lcclnk -o "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software.exe" -tmpdir "C:\Users\Watertech\Desktop\T_00001_Rev_A_Fluid_Sensor_Data_Acquisition_Software\src\." -L"C:\PROGRA~2\MATLAB\R2007b\sys\lcc\lib" -libpath "C:\PROGRA~2\MATLAB\R2007b\extern\lib\win32\lcc"  @C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\mbuild_tmp.rsp  mclmcrrt.lib" 
+ 
+ 
+--> "if exist C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\templib.def del C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\templib.def" 
+ 
+ 
+--> "if exist C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\templib_stub.obj del C:\Users\WATERT~1\AppData\Local\Temp\mbuild_A3C62B77-4C91-4292-B1A5-722800910965\templib_stub.obj" 
+ 
